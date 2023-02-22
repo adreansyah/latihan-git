@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./assets/index.bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header class="container-fluid bg-gray">
+    <header id="header-doc" class="container-fluid bg-gray">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between contains">
                 <div class="title-header position-relative my-2"></div>
-                <nav class="navigation d-none  d-lg-block d-xxl-block">
+                <nav class="navigation d-none d-lg-block d-xxl-block">
                     <ol class="d-flex gap-5 list-unstyled posiition-relative mt-3">
                         <li>Our Services</li>
                         <li>Why Us</li>
@@ -22,13 +23,13 @@
                         <li>FAQ</li>
                     </ol>
                 </nav>
-                <button class="btn d-lg-none d-xl-none "><i class="fa fa-bars"></i></button>
+                <button id="click-btn" class="btn d-lg-none d-xl-none "><i class="fa fa-bars"></i></button>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-md-6 p-0 justify-content-between contains">
-                <div class="margin-col-slide">
-                    <h1 class="title-h1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+                <div id="text-mobil" class="margin-col-slide">
+                    <!-- <h1 class="title-h1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1> -->
                     <p class="paragraph-title w-75">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
                         terbaik dengan harga
                         terjangkau.
@@ -46,6 +47,20 @@
             </div>
         </div>
     </header>
+    <aside id="aside-nav" class="d-md-none d-sm-block">
+        <div class="side-nav-bar ">
+            <div class="title-bar d-flex justify-content-between">
+                <strong class="title-icon">BCR</strong>
+                <span id="close-aside" class=" icon-times"><i class="fa fa-times"></i></span>
+            </div>
+            <ul class="side-nav-bar-list ">
+                <li>Our Services</li>
+                <li>Why Us</li>
+                <li>Testimonial</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </aside>
     <section class="container-fluid contains">
         <div class="row d-flex align-items-center mt-5 pt-4">
             <div class="col-md-6 text-center mb-5">
@@ -130,21 +145,220 @@
                 Berbagai review positif dari para pelanggan kami
             </p>
             <div class="justify-content-center gap-4 overflow-hidden d-none d-xl-flex">
-                <div class="col-sm-4 list-card-testimonial"></div>
-                <div class="col-sm-4 list-card-testimonial"></div>
-                <div class="col-sm-4 list-card-testimonial"></div>
+                <div class="col-sm-4 list-card-testimonial p-5">
+                    <div class="d-flex flex-rows gap-5">
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/Ellipse 10.png" />
+                        </div>
+                        <div class="d-flex flex-column gap-2">
+                            <div>
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                            </div>
+                            <p class="m-0 paragraph-title">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor
+                                sit
+                                amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod”
+                            </p>
+                            <p class="m-0 paragraph-title">John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 list-card-testimonial p-5">
+                    <div class="d-flex flex-rows gap-5">
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/Ellipse 10.png" />
+                        </div>
+                        <div class="d-flex flex-column gap-2">
+                            <div>
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                            </div>
+                            <p class="m-0 paragraph-title">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor
+                                sit
+                                amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod”
+                            </p>
+                            <p class="m-0 paragraph-title">John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 list-card-testimonial p-5">
+                    <div class="d-flex flex-rows gap-5">
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/Ellipse 10.png" />
+                        </div>
+                        <div class="d-flex flex-column gap-2">
+                            <div>
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                            </div>
+                            <p class="m-0 paragraph-title">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor
+                                sit
+                                amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod”
+                            </p>
+                            <p class="m-0 paragraph-title">John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
             <div class="justify-content-center gap-4 overflow-hidden d-xl-none d-flex ">
-                <div class="col-sm-4 list-card-testimonial mx-4"></div>
+                <div class="col-sm-4 list-card-testimonial p-5">
+                    <div class="d-flex flex-column gap-3">
+                        <div class="d-flex align-self-center">
+                            <img src="./assets/img/Ellipse 10.png" />
+                        </div>
+                        <div class="d-flex flex-column gap-2 text-center">
+                            <div>
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                                <img src="./assets/img/Star 1.png" />
+                            </div>
+                            <p class="m-0 paragraph-title">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor
+                                sit
+                                amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod”
+                            </p>
+                            <p class="m-0 paragraph-title">John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section class="container-fluid contains mt-5">
+        <div class="sewa-mobil-sekarang w-full p-5 d-flex flex-column gap-2">
+            <div class="text-center">
+                <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
+            </div>
+            <div class="text-center">
+                <p class="text-sewa-mobil d-inline-flex align-self-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-success">Mulai Sewa Mobil</button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid contains mt-5">
+        <div class="d-flex flex-rows flex-wrap justify-content-around">
+            <div class="text-center d-block d-lg-none d-xxl-none">
+                <h3>Frequently Asked Question </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="d-none d-lg-block d-xxl-block">
+                <h3>Frequently Asked Question </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="w-straight-faq">
+                <ul class="list-unstyled d-flex flex-column gap-2 w-full">
+                    <li class="p-3 border-faq d-flex justify-content-between">
+                        <span>Apa saja syarat yang dibutuhkan?</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </li>
+                    <li class="p-3 border-faq d-flex justify-content-between">
+                        <span>Berapa hari minimal sewa mobil lepas kunci?</span>
+                        <i class="fa fa-chevron-down"></i>
+                    <li class="p-3 border-faq d-flex justify-content-between">
+                        <span>Berapa hari sebelumnya sabaiknya booking sewa mobil?</span>
+                        <i class="fa fa-chevron-down"></i>
+                    <li class="p-3 border-faq d-flex justify-content-between">
+                        <span>Apakah Ada biaya antar-jemput?</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </li>
+                    <li class="p-3 border-faq d-flex justify-content-between">
+                        <span>Bagaimana jika terjadi kecelakaan</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid contains mt-5">
+        <div class="row gap-4">
+            <div class="col-md-4 d-flex flex-column gap-1">
+                <p class="paragraph-title m-0 w-75">
+                    Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
+                </p>
+                <p class="paragraph-title m-0">
+                    binarcarrental@gmail.com
+                </p>
+                <p class="paragraph-title m-0">
+                    081-233-334-808
+                </p>
+            </div>
+            <div class="col-md-1">
+                <p>Our Services</p>
+                <p>Why Us</p>
+                <p>Testimonial</p>
+                <p>FAQ</p>
+            </div>
+            <div class="col-md-3">
+                <p class="paragraph-title">Connect with us</p>
+                <img src="./assets/img/icon_facebook.png" />
+                <img src="./assets/img/icon_instagram.png" />
+                <img src="./assets/img/icon_twitter.png" />
+                <img src="./assets/img/icon_mail.png" />
+                <img src="./assets/img/icon_twitch.png" />
+            </div>
+            <div class="col-md-3">
+                <p class="paragraph-title">
+                    Copyright Binar 2022
+                </p>
+                <div class="title-header position-relative my-2"></div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        let isAsideEl = document.getElementById("aside-nav");
+        isAsideEl.style.visibility = "hidden";
+
+        document.getElementById('click-btn').onclick = () => {
+            isAsideEl.style.visibility = "visible";
+        }
+
+        document.getElementById('close-aside').onclick = () => {
+            isAsideEl.style.visibility = "hidden";
+        }
+
+    </script>
+
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+
 </body>
 
 </html>
